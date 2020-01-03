@@ -41,3 +41,5 @@ WHERE dept_name = 'Sales' OR dept_name = 'Development';
 SELECT COUNT(last_name) as lnc, last_name FROM employees
 GROUP BY last_name ORDER BY lnc DESC;
 
+-- My Employee ID Number
+SELECT * FROM employees WHERE emp_no = 499942;
